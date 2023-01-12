@@ -18,7 +18,7 @@ export class TableService {
     const requestOptions = { headers: headers };
 
     return this.httpClient.get<any>(
-      'https://api.api-futebol.com.br/v1/campeonatos/14/tabela',
+      'https://api.api-futebol.com.br/v1/campeonatos/2/tabela',
       requestOptions
     );
   }
