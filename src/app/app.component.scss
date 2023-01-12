@@ -1,0 +1,24 @@
+body {
+  margin: 10px;
+}
+
+.escudo {
+  max-width: 40px;
+}
+
+// .table-styled tbody tr:nth-child(even) {
+//   background-color: #ccc;
+// }
+
+// .table-styled tbody tr:nth-child(odd) {
+//   background-color: #fff;
+// }
+
+.styled-table {
+  background-color: #ccc;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+}
