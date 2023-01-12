@@ -6,19 +6,20 @@ body {
   max-width: 40px;
 }
 
-// .table-styled tbody tr:nth-child(even) {
-//   background-color: #ccc;
-// }
+.styled-table tbody tr:nth-child(even) {
+  background-color: #ccc;
+}
 
-// .table-styled tbody tr:nth-child(odd) {
-//   background-color: #fff;
-// }
+.styled-table tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
 
 .styled-table {
-  background-color: #ccc;
+  background-color: aquamarine;
   border-collapse: collapse;
   margin: 25px 0;
   font-size: 0.9em;
   font-family: sans-serif;
   min-width: 400px;
+  text-align: left;
 }
